@@ -65,8 +65,8 @@ h1 {
 }
 
 .button:hover {
-  transition-duration: 0.1s;
-  background-color: #3A3A3A;
+  transition-duration: 0.3s;
+  background-color: #894747;
 }
 
 .button:after {
