@@ -60,3 +60,101 @@ squareThree.addEventListener("dblclick", function() {
         squareThree.style.textAlign = "center";
     }
 });
+
+
+squareFour.addEventListener("click", function(){
+    squareFour.textContent = "X";
+    squareFour.style.fontSize = "110px";
+    squareFour.style.textAlign = "center";
+});
+
+
+squareFour.addEventListener("dblclick", function() {
+    if (!squareFour.clicked == true) {
+        squareFour.textContent = "O";
+        squareFour.style.fontSize = "110px";
+        squareFour.style.textAlign = "center";
+    }
+});
+
+
+squareFive.addEventListener("click", function(){
+    squareFive.textContent = "X";
+    squareFive.style.fontSize = "110px";
+    squareFive.style.textAlign = "center";
+});
+
+
+squareFive.addEventListener("dblclick", function() {
+    if (!squareFive.clicked == true) {
+        squareFive.textContent = "O";
+        squareFive.style.fontSize = "110px";
+        squareFive.style.textAlign = "center";
+    }
+});
+
+
+squareSix.addEventListener("click", function(){
+    squareSix.textContent = "X";
+    squareSix.style.fontSize = "110px";
+    squareSix.style.textAlign = "center";
+});
+
+
+squareSix.addEventListener("dblclick", function() {
+    if (!squareSix.clicked == true) {
+        squareSix.textContent = "O";
+        squareSix.style.fontSize = "110px";
+        squareSix.style.textAlign = "center";
+    }
+});
+
+
+
+squareSeven.addEventListener("click", function(){
+    squareSeven.textContent = "X";
+    squareSeven.style.fontSize = "110px";
+    squareSeven.style.textAlign = "center";
+});
+
+
+squareSeven.addEventListener("dblclick", function() {
+    if (!squareSeven.clicked == true) {
+        squareSeven.textContent = "O";
+        squareSeven.style.fontSize = "110px";
+        squareSeven.style.textAlign = "center";
+    }
+});
+
+
+
+squareEight.addEventListener("click", function(){
+    squareEight.textContent = "X";
+    squareEight.style.fontSize = "110px";
+    squareEight.style.textAlign = "center";
+});
+
+
+squareEight.addEventListener("dblclick", function() {
+    if (!squareEight.clicked == true) {
+        squareEight.textContent = "O";
+        squareEight.style.fontSize = "110px";
+        squareEight.style.textAlign = "center";
+    }
+});
+
+
+squareNine.addEventListener("click", function(){
+    squareNine.textContent = "X";
+    squareNine.style.fontSize = "110px";
+    squareNine.style.textAlign = "center";
+});
+
+
+squareNine.addEventListener("dblclick", function() {
+    if (!squareNine.clicked == true) {
+        squareNine.textContent = "O";
+        squareNine.style.fontSize = "110px";
+        squareNine.style.textAlign = "center";
+    }
+});
