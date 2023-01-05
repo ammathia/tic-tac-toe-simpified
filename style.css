@@ -51,10 +51,15 @@ h1 {
 .table {
     border: 3px solid black;
     border-collapse: collapse;
+    padding: 0;
 }
 
 .table td {
+    padding: 0;
     width: 10rem;
     height: 10rem;
     border: 3px solid black;
+    
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
