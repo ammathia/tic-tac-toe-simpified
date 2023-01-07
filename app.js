@@ -5,12 +5,12 @@ let squares = document.querySelectorAll('td');
 
 let restart = document.querySelector('#btn');
 
-function clearBoard() {
+
+function clearBoard() { 
     for (let i = 0; squares.length; i++) {
         squares[i].textContent = "";
-    }
 }
-
+}
 
 restart.addEventListener("click", clearBoard);
 
@@ -25,7 +25,7 @@ function changeSquare() {
 }
 
  for (let i = 0; squares.length; i++) {
-    
+    squares[i].addEventListener('click', changeSquare);
  }
 
 
