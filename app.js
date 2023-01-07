@@ -1,6 +1,34 @@
 "use strict"
 
 
+let squares = document.querySelectorAll('td');
+
+let restart = document.querySelector('#btn');
+
+function clearBoard() {
+    for (let i = 0; squares.length; i++) {
+        squares[i].textContent = "";
+    }
+}
+
+
+restart.addEventListener("click", clearBoard);
+
+function changeSquare() {
+    if (squares === "") {
+        squares.textContent = "X";
+    } else if (squares === "X") {
+        squares.textContent = "O";
+    } else {
+        squares.textContent = "";
+    }
+}
+
+squares.addEventListener
+
+
+
+/*
 let squareOne = document.querySelector("#one");
 let squareTwo = document.querySelector("#two");
 let squareThree = document.querySelector("#three");
@@ -158,3 +186,5 @@ squareNine.addEventListener("dblclick", function() {
         squareNine.style.textAlign = "center";
     }
 });
+
+*/
