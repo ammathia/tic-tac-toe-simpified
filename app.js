@@ -15,16 +15,18 @@ function clearBoard() {
 restart.addEventListener("click", clearBoard);
 
 function changeSquare() {
-    if (squares === "") {
-        squares.textContent = "X";
-    } else if (squares === "X") {
-        squares.textContent = "O";
+    if (this.textContent === "") {
+        this.textContent = "X";
+    } else if (this.textContent === "X") {
+        this.textContent = "O";
     } else {
-        squares.textContent = "";
+        this.textContent = "";
     }
 }
 
-squares.addEventListener
+ for (let i = 0; squares.length; i++) {
+    
+ }
 
 
 
