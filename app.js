@@ -6,13 +6,13 @@ let squares = document.querySelectorAll('td');
 let restart = document.querySelector('#btn');
 
 
-function clearBoard() { 
+function clearAll() { 
     for (let i = 0; squares.length; i++) {
         squares[i].textContent = "";
 }
 }
 
-restart.addEventListener("click", clearBoard);
+restart.addEventListener("click", clearAll);
 
 function changeSquare() {
     if (this.textContent === "") {
