@@ -84,7 +84,7 @@ h1 {
 }
 
 .button:hover {
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   background-color: #894747;
 }
 
